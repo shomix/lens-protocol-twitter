@@ -41,9 +41,7 @@ export default function Profile(props) {
               <div className="block mt-1 text-sm leading-tight font-medium text-black hover:underline">
                 {profile.bio}
               </div>
-              <div className="mt-2 text-sm text-slate-900">
-                {profile.ownedBy}
-              </div>
+              <div className="mt-2 text-sm text-slate-900">{profile.ownedBy}</div>
               <p className="mt-2 text-xs text-slate-500">
                 following: {profile.stats.totalFollowing} followers:{" "}
                 {profile.stats.totalFollowers}

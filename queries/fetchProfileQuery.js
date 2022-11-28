@@ -5,7 +5,7 @@ export default gql`
     $request: SingleProfileQueryRequest!
     $publicationsRequest: PublicationsQueryRequest!
   ) {
-    publications(request: $publicationsRequest) {
+    publications( request: $publicationsRequest) {
       items {
         __typename
         ... on Post {
